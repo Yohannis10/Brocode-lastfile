@@ -1,0 +1,21 @@
+h1{
+    background-color: blue;
+}
+.gallery{
+    display: inline block;
+    border: 1px solid darkgray;
+    margin: 5px;
+    width: 200px;
+}
+.gallery .discription {
+    padding: 10px;
+    text-align: center;
+    
+}
+.gallery:hover{
+    border: 1px solid darkslategray;
+}
+.gallery img{
+    width:100% ;
+    height: auto;
+}

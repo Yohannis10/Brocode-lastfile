@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+}
+main{
+    margin: 20px;
+}
+h1{
+  background-color: blue;
+  text-align: center;
+
+} 
+h3{
+   background-color: aquamarine; 
+   color: blueviolet;
+   
+   
+}
+.navbar ul{
+    list-style: none;
+    background-color: rgb(83, 80, 80);
+    padding: opx;
+    margin: 0%;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgba(63, 57, 57, 0.973);
+}
+.navbar li{
+    float: left;
+}
+
+
