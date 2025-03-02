@@ -1,3 +1,28 @@
 h1{
     background-color: blue;
 }
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(238, 33, 33);
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotate;
+    animation-duration:2s;
+
+}
+@keyframes slideRight{
+    from{transform: translateX(100%);}
+}
+@keyframes slideLeft{
+    to{transform: translateX(100%);}
+}
+@keyframes slideUp{
+    from{transform: translateY(300%);}
+}
+@keyframes slidedown{
+    to{transform: translateY(300%);}
+}
+@keyframes rotate{
+    to{transform: rotateX(180deg);}
+}
